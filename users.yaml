@@ -30,12 +30,12 @@ spec:
           image: rmiller400/kub-dep-users:latest
           env:
             # - name: MONGODB_CONNECTION_URI
-            #   value: 'mongodb+srv://rmiller401:sjkZaosOGVLLePNU@cluster0.jdyxdhc.mongodb.net/?retryWrites=true&w=majority&useUnifiedTopology=true'
+            #   value: 'mongodb+srv://rmiller401:s###@cluster0.jdyxdhc.mongodb.net/?retryWrites=true&w=majority&useUnifiedTopology=true'
 
 # ^doesnt have .net/users
 
             - name: MONGODB_CONNECTION_URI
-              value: 'mongodb+srv://rmiller401:sjkZaosOGVLLePNU@cluster0.jdyxdhc.mongodb.net/users?retryWrites=true&w=majority&useUnifiedTopology=true'
+              value: 'mongodb+srv://rmiller401:###@cluster0.jdyxdhc.mongodb.net/users?retryWrites=true&w=majority&useUnifiedTopology=true'
 
             - name: AUTH_API_ADDRESSS
               value: 'auth-service.default:3000'
